@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydee TechWorld</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #4caf50;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* About Section */
+        .about {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #4caf50;
+            margin-bottom: 15px;
+        }
+
+        /* Skills Section */
+        .skills {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 90%;
+            padding: 20px;
+            background: #1e1e1e;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .skills h2 {
+            color: #4caf50;
+            margin-bottom: 20px;
+        }
+
+        .skills img {
+            width: 200px;
+            margin: 10px;
+            border: 2px solid #4caf50;
+            border-radius: 8px;
+        }
+
+        /* Projects */
+        .projects {
+            margin: 20px auto;
+            max-width: 90%;
+            padding: 20px;
+            background: #1e1e1e;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .projects h2 {
+            color: #4caf50;
+            margin-bottom: 20px;
+        }
+
+        .projects img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border: 2px solid #4caf50;
+            border-radius: 8px;
+        }
+
+        /* Contact */
+        .contact {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact h2 {
+            margin-bottom: 20px;
+            color: #4caf50;
+        }
+
+        .contact a {
+            color: #4caf50;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 2rem;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .contact a:hover {
+            transform: scale(1.2);
+            color: #ffffff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #1e1e1e;
+            color: #4caf50;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Babiboy TechWorld 🌎</h1>
+        <p>Innovating the Future with Technology</p>
+    </header>
+
+    <!-- About Me -->
+    <section class="about">
+        <img src="badge.png" alt="Your Picture">
+        <h2>About Me</h2>
+        <p>
+            I love reading, watching videos, and learning about the latest technology. 
+            My dream is to innovate and become a prominent name like <em>Mark Zuckerberg</em> and <em>Elon Musk</em>.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <img src=="project1.png" alt="project 1">
+        <img src="project2.png" alt="project 2">
+        <img src="project3.png" alt="project 3">
+        <img src="project4.png" alt="project 4">
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+        <h2>My Projects</h2>
+        <img src="skill1.png" alt="Project 1">
+        <img src="skill2.png" alt="Project 2">
+        <img src="skill3.png" alt="Project 3">
+        <img src="skill4.png" alt="Project 4">
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <a href="https://www.facebook.com/profile.php?id=61570473338204&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="babiboytechworld@gmail.com.com"><i class="fa-solid fa-envelope"></i></a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© Babiboy_TechWorld | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
